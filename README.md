@@ -48,8 +48,7 @@ This is Laravel Stripe payment getaway
         }
 # 3. Add this line (definitely ensure your stripe path) in your function in CodeIgniter Controller    
     require_once APPPATH.'libraries/stripe/vendor/autoload.php';
- <br>   
-# 4. demo card
+# 4. Demo Card
 <ul>
     <li>Card no: 4242424242424242</li>
     <li>exp_month: 10</li>

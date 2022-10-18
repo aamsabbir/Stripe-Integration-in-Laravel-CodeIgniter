@@ -3,9 +3,9 @@ This is Laravel Stripe payment getaway
 # 1. You have to install a php package for stripe following this command 
 <strong>composer require stripe/stripe-php</strong>
 
-# 2. You need a <b>secret key</b> of stripe account which account your payment will be in
+<h4>You need a <b>secret key</b> of stripe account which account your payment will be in</h4>
 
-# 3. Add this code in your function in Laravel Controller
+# 2. Add this code in your function in Laravel Controller
 	try {
             $stripe = new StripeClient('SECRET_KEY');
             //  add card information here by which user pay
@@ -46,10 +46,10 @@ This is Laravel Stripe payment getaway
                 'message' => $e->getMessage()
             ]);
         }
-# 4. Add this line (definitely ensure your stripe path) in your function in CodeIgniter Controller    
+# 3. Add this line (definitely ensure your stripe path) in your function in CodeIgniter Controller    
     <strong>require_once APPPATH.'libraries/stripe/vendor/autoload.php';</strong>
  <br>   
-# 5. demo card
+# 4. demo card
 <ul>
     <li>Card no: 4242424242424242</li>
     <li>exp_month: 10</li>

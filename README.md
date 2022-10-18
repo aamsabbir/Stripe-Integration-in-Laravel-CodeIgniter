@@ -49,7 +49,9 @@ try {
 }
 ```
 # 3. Add this line (definitely ensure your stripe path) in your function in CodeIgniter Controller    
-    ```php require_once APPPATH.'libraries/stripe/vendor/autoload.php'; ```
+```php
+    require_once APPPATH.'libraries/stripe/vendor/autoload.php';
+```
 # 4. Demo Card
 <ul>
     <li>Card no: 4242424242424242</li>

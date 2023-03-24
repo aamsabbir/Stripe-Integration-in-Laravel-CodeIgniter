@@ -1,7 +1,7 @@
 # Stripe Integration in Laravel/CodeIgniter
 This is Laravel Stripe payment getaway
 # 1. You have to install a php package for stripe following this command 
-```php composer require stripe/stripe-php ```
+```composer require stripe/stripe-php ```
 
 <h4>You need a <b>secret key</b> of stripe account which account your payment will be in</h4>
 
